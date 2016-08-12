@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.bit.alan.eventfinder.BusinessFragment">
+
+    <io.techery.properratingbar.ProperRatingBar
+    android:id="@+id/RatingBarFD"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    app:prb_defaultRating="0"
+    app:prb_tickNormalDrawable="@drawable/ic_star_normal"
+    app:prb_tickSelectedDrawable="@drawable/ic_star_selected"
+    app:prb_tickSpacing="5sp"
+    app:prb_totalTicks="5"
+    app:prb_clickable="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_businessDialog"
+        tools:listitem="@android:layout/simple_list_item_1"
+        android:layout_below="@+id/RatingBarFD"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Directions"
+        android:id="@+id/btn_Directions"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:id="@+id/btn_Close"
+        android:layout_marginEnd="57dp"
+        android:layout_alignTop="@+id/btn_Directions"
+        android:layout_toStartOf="@+id/btn_Directions" />
+
+
+</RelativeLayout>

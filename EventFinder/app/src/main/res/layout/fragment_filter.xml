@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.bit.alan.eventfinder.FilterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_term"
+        android:spinnerMode="dialog"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:id="@+id/seekBar"
+        android:max="10000"
+        android:progress="500"
+        android:indeterminate="false"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tv_Range" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="5000"
+        android:id="@+id/tv_Range"
+        android:layout_below="@+id/spinner_term"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/button_Search"
+        android:layout_below="@+id/RatingBarFilter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Meters"
+        android:id="@+id/textView"
+        android:layout_above="@+id/seekBar"
+        android:layout_marginLeft="5sp"
+        android:layout_toEndOf="@+id/tv_Range" />
+
+    <io.techery.properratingbar.ProperRatingBar
+        android:id="@+id/RatingBarFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:prb_defaultRating="0"
+        app:prb_tickNormalDrawable="@drawable/ic_star_normal"
+        app:prb_tickSelectedDrawable="@drawable/ic_star_selected"
+        app:prb_tickSpacing="5sp"
+        app:prb_totalTicks="5"
+        app:prb_clickable="true"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginTop="5sp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

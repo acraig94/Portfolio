@@ -1,0 +1,9 @@
+c:\users\alan\documents\visual studio 2015\Projects\Reaction Diffusion Model\Reaction Diffusion Model\bin\Debug\Reaction Diffusion Model.exe.config
+C:\Users\Alan\documents\visual studio 2015\Projects\Reaction Diffusion Model\Reaction Diffusion Model\obj\Debug\Reaction Diffusion Model.csprojResolveAssemblyReference.cache
+C:\Users\Alan\documents\visual studio 2015\Projects\Reaction Diffusion Model\Reaction Diffusion Model\obj\Debug\Reaction_Diffusion_Model.Form1.resources
+C:\Users\Alan\documents\visual studio 2015\Projects\Reaction Diffusion Model\Reaction Diffusion Model\obj\Debug\Reaction_Diffusion_Model.Properties.Resources.resources
+C:\Users\Alan\documents\visual studio 2015\Projects\Reaction Diffusion Model\Reaction Diffusion Model\obj\Debug\Reaction Diffusion Model.csproj.GenerateResource.Cache
+C:\Users\Alan\documents\visual studio 2015\Projects\Reaction Diffusion Model\Reaction Diffusion Model\bin\Debug\Reaction Diffusion Model.exe
+C:\Users\Alan\documents\visual studio 2015\Projects\Reaction Diffusion Model\Reaction Diffusion Model\bin\Debug\Reaction Diffusion Model.pdb
+C:\Users\Alan\documents\visual studio 2015\Projects\Reaction Diffusion Model\Reaction Diffusion Model\obj\Debug\Reaction Diffusion Model.exe
+C:\Users\Alan\documents\visual studio 2015\Projects\Reaction Diffusion Model\Reaction Diffusion Model\obj\Debug\Reaction Diffusion Model.pdb
